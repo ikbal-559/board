@@ -2488,7 +2488,7 @@ window.axios.defaults.headers.common = {
   'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
   'Accept': 'application/json'
 };
-window.axios.defaults.baseURL = 'http://kanban-board.pc/api/';
+window.axios.defaults.baseURL = 'https://ikbal.timesshop.xyz/api/';
 
 Vue.use((vue_js_modal_dist_index_nocss_js__WEBPACK_IMPORTED_MODULE_0___default()));
 

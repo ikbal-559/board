@@ -14,7 +14,7 @@ window.axios.defaults.headers.common = {
     'X-CSRF-TOKEN': document.querySelector('meta[name="csrf-token"]').getAttribute('content'),
     'Accept': 'application/json'
 };
-window.axios.defaults.baseURL = 'http://kanban-board.pc/api/';
+window.axios.defaults.baseURL = 'https://ikbal.timesshop.xyz/api/';
 
 
 
