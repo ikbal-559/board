@@ -1,0 +1,146 @@
+body {
+    margin: 10px;
+    padding: 0;
+    color: #4a5568;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.shadow {
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 10%), 0 1px 2px 0 rgb(0 0 0 / 6%);
+}
+
+form {
+    display: block;
+    margin: 15px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #575757;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #e1e1e1;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.btn {
+    color: #fff;
+    background-color: #46c37b;
+    display: inline-block;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0.25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    border: none;
+    margin: 15px 0;
+}
+
+
+/*custom style*/
+
+.nav {
+    display: flex;
+    margin: 20px auto;
+}
+
+.columns {
+    display: flex;
+    gap: 15px;
+}
+
+.column {
+    flex-basis: 40%;
+    min-width: 320px;
+    background-color: rgb(247 247 247 / 73%);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.columnHeader {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.columnHeader h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #4a5568;
+}
+
+.deleteColumn {
+    padding: 10px;
+    display: inline-block;
+    background: #c92f2fdb;
+    border: 1px solid #cb1d1d;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.card {
+    border-radius: 0.25rem;
+    background-color: white;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.columnForm {
+    margin-top: 50px;
+
+}
+
+button[type=submit] {
+    width: 100%;
+}
+
+.addColumn {
+    background-color: #46c37b !important;
+    margin: 0 !important;
+    border: 1px solid #46c37b !important;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+.text-sm{
+    color:  #718096;
+    font-size: 12px;
+}
+
+.card h5 {
+    margin: 0 0 5px;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.kanban-column{
+    min-height: 300px;
+    width: 100%;
+    display: block;
+}
